@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "timesheet"
+version = "1.0.0"
+description = "the best"
+authors = ["graxel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+selenium = "^4.28.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
