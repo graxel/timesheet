@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.13"
 selenium = "^4.28.1"
+dotenv = "^0.9.9"
 
 
 [tool.poetry.group.dev.dependencies]
